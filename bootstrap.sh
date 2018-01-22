@@ -20,3 +20,4 @@ vagrant plugin install cachier
 
 apm install --package-file atom-packages.txt
 apm update --no-confirm
+apm disable spell-check
