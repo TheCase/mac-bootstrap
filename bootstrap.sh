@@ -19,3 +19,4 @@ vagrant plugin install virtualbox
 vagrant plugin install cachier
 
 apm install --package-file atom-packages.txt
+apm update --no-confirm
