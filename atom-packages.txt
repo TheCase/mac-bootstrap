@@ -1,0 +1,11 @@
+atom-beautify
+atom-ide-ui
+busy-signal
+concourse-pipeline-yaml
+intentions
+language-openscad
+linter
+linter-js-yaml
+linter-ui-default
+script
+vim-mode-plus
