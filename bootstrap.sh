@@ -2,6 +2,7 @@ cp -v bash_profile ~/.bash_profile
 cp -v vimrc ~/.vimrc
 
 xcode-select --install
+ssh-keygen -q -N ""
 
 curl -s https://raw.githubusercontent.com/github/gitignore/master/Global/macOS.gitignore -o ~/.gitignore
 
