@@ -4,6 +4,9 @@ cp -v vimrc ~/.vimrc
 xcode-select --install
 ssh-keygen -q -N ""
 
+git config --global user.name "TheCase"
+git config --global user.email github@repulsor.net
+
 curl -s https://raw.githubusercontent.com/github/gitignore/master/Global/macOS.gitignore -o ~/.gitignore
 
 if [ ! `which brew` ]; then
