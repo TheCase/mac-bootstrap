@@ -2,6 +2,8 @@
 cask_args appdir: '/Applications'
 tap 'caskroom/homebrew-cask' || true
 
+cask 'caskroom/versions/java8'
+
 brew 'awscli'
 brew 'azure-cli'
 brew 'elasticsearch'
@@ -27,7 +29,6 @@ brew 'wget'
 cask 'atom'
 cask 'chefdk'
 cask 'google-chrome'
-case 'caskroom/versions/java8'
 cask 'lastpass'
 cask 'postman'
 cask 'qlcolorcode'
